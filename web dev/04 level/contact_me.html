@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/submit.php" method="post">
+      <div>
+        <label for="user_name">Username:</label>
+        <input type="text" id="user_name" placeholder="email" name="username" />
+        <br />
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="password" />
+        <hr />
+      </div>
+      <div>
+        <label for="photo">Your Photo:</label>
+        <input type="file" id="photo" name="user photo" /><br />
+        <label for="first">First Name:</label>
+        <input type="text" id="first" name="first_name" /><br />
+        <label for="last">Last Name:</label>
+        <input type="text" id="last" name="last_name" /><br />
+        <label for="DOB">Date Of Birth:</label>
+        <input type="date" id="DOB" name="date of birth" /><br />
+        <label for="fev">favrate colour:</label>
+        <input type="color" id="fev" name="faverate_colour" /><br />
+        <label for="other_1">male</label>
+        <input type="radio" id="other_1" name="gender" value="Male" /><br />
+        <label for="other_2">female</label>
+        <input type="radio" id="other_2" name="gender" value="Female" /><br />
+        <label for="other_3">other</label>
+        <input type="radio" id="other_3" name="gender" value="Other" /><br />
+        <label for="other_4">Aadhar card</label>
+        <input
+          type="checkbox"
+          id="other_4"
+          name="document"
+          value="aadhar"
+        /><br />
+        <label for="other_5">pen card</label>
+        <input
+          type="checkbox"
+          id="other_5"
+          name="document"
+          value="pen_card"
+        /><br />
+        <label for="other_6">voter ID</label>
+        <input
+          type="checkbox"
+          id="other_6"
+          name="document"
+          value="Voter_id"
+        /><br />
+        <label for="state">Select Your State</label>
+        <select name="state" id="state">
+          <option value="maharashtra">Maharashtra</option>
+          <option value="goa">Goa</option>
+          <option value="rajisthan">Rajisthan</option>
+          <label for="photo_2"></label>
+          <input type="file" id="photo_2" name="aadhar card" />
+        </select>
+      </div>
+      <aside>
+        <input type="range" /><br />
+        <label for="bogus">Button:</label>
+        <input type="button" id="bogus" value="click me" />
+      </aside>
+      <div>
+        <label for="suggest">Your feedback:</label>
+        <textarea name="feedback" id="suggest" cols="30" rows="10">
+              default text here
+   </textarea
+        >
+      </div>
+      <input type="submit" value="submit">
+      <div>
+        <h1>
+          <big>I learned this HTML form:</big>
+        </h1>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/rklidcZ-aLU?si=scyIZ8bONElRIk55" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </form>
+  </body>
+</html>
